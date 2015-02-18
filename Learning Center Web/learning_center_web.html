@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://cdn.firebase.com/js/client/2.2.0/firebase.js"></script>
+		<script src = "learning_center_web.js"> </script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+
+
+	</head>
+	
+	<body>
+		<div class="page-header" style="text-align: center">
+			<h2> Learning Center Evaluation Web </h2>
+		</div>
+	</br> 
+
+<!--BEGIN MAKING FIRST TABLE-->
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h2>Tutor Evaluation</h2>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12 col-med-offset-1">
+						<table class="table table-striped">
+							<thead>
+								<tr> 
+									<th>Tutor</th>
+									<th>Student</th>
+									<th>Class Year</th>
+									<th>ESL</th>
+									<th>Attitude</th>
+									<th>Atmosphere</th>
+									<th>Knowledge</th>
+									<th>Understanding</th>
+									<th>General</th>
+									<th>Purpose</th>
+									<th>Comment</th>
+									
+								</tr>
+							</theah>
+							<tbody id = "tutor_eval_body"> 
+							</tbody>
+
+						</table>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	<!--BEGIN MAKING SECOND TABLE-->
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h2>Student Evaluation</h2>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-12 col-med-offset-1">
+						<table class="table table-striped">
+							<thead>
+								<tr> 
+									<th>Student</th>
+									<th>Class Year</th>
+									<th>Date</th>
+									<th>Time</th>
+									<th>Professor</th>
+									<th>Course</th>
+									<th>Helped Needed</th>
+									<th>Attitude</th>
+									<th>Tutor</th>
+								</tr>
+							</theah>
+							<tbody id = "student_eval_body"> 
+							</tbody>
+
+						</table>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+
+</html>
